@@ -55,7 +55,7 @@ route handlers, which run Mongoose queries against the database.
 
 ## Team Members
 
-- Kasagga39 (GitHub) — _add remaining team members here_
+- Kasagga39 (GitHub) 
 
 ## Getting Started
 
@@ -211,7 +211,7 @@ proxy.ts          # Route protection (Next.js 16 "proxy" = middleware)
 ## Deployment
 
 1. Push the repository to GitHub.
-2. Import the project into [Vercel](https://vercel.com/new).
+2. Import the project into [Vercel](https://study-sync-anka4.vercel.app/).
 3. In **Project Settings → Environment Variables**, add `MONGODB_URI` and `AUTH_SECRET`.
    In MongoDB Atlas, whitelist `0.0.0.0/0` (or Vercel's IPs) so the serverless functions can connect.
 4. Deploy. Vercel runs `next build` automatically.
