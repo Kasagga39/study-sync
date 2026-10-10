@@ -216,9 +216,6 @@ proxy.ts          # Route protection (Next.js 16 "proxy" = middleware)
    In MongoDB Atlas, whitelist `0.0.0.0/0` (or Vercel's IPs) so the serverless functions can connect.
 4. Deploy. Vercel runs `next build` automatically.
 
-## Product Demo Summary
-
-See [PRODUCT_DEMO.md](./PRODUCT_DEMO.md) for the written product demo summary.
 
 ## Known Issues & Opportunities
 
